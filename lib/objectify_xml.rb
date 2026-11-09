@@ -1,6 +1,6 @@
-gem 'activesupport'
+require 'logger'
 require 'active_support'
-require 'active_support/inflections'
+require 'active_support/core_ext/string/inflections'
 require 'nokogiri'
 require File.join(File.dirname(__FILE__), 'objectify_xml/dsl')
 require File.join(File.dirname(__FILE__), 'objectify_xml/document_parser')

@@ -6,4 +6,6 @@ Gem::Specification.new do |s|
   s.description = s.summary = "Provides an easy to use DSL resembling ActiveRecord for defining objects representing any XML document"
   s.files = Dir.glob("./**/*")
   s.homepage = "https://github.com/pangloss/objectify_xml"
+  s.add_runtime_dependency "activesupport", ">= 6.1"
+  s.add_runtime_dependency "nokogiri"
 end
